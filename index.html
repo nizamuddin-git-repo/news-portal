@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      id="category-bar-container"
+      class="flex justify-center category-bar bg-slate-400"
+    >
+      <button class="btn btn-info mt-8">Police</button>
+    </div>
+
+    <div class="flex justify-center mt-5 search-container">
+      <input
+        id="search-box"
+        type="text"
+        placeholder="Type Here Category Name....."
+        class="input input-bordered w-full max-w-xs mr-2 text-sm"
+      />
+
+      <button
+        id="search-btn"
+        onclick="checkAge()"
+        type=""
+        class="btn btn-info bg-slate-400 border-0"
+      >
+        Search
+      </button>
+    </div>
+
+    <div class="flex justify-center mt-5">
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img class="rounded-xl" src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">New movie is released!</h2>
+              <p>Click the button to watch on Jetflix app.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">details</button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
